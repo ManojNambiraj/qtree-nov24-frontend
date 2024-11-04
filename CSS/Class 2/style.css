@@ -1,0 +1,36 @@
+  /*
+       .nature{
+            width: 300px;
+            height: 300px;
+
+            border-radius: 50%;
+            border: 10px solid black;
+        }
+
+        body{
+            background-image: url(https://www.mangopeopleshop.com/cdn/shop/files/pretty-pink-plush-teddy-bear-toy-186_1200x1200.jpg?v=1683302290);
+            background-size: cover;
+            background-repeat: repeat;
+        } */
+
+        .para{
+            background-color: yellowgreen;
+            color: white;
+
+            /* padding: 30px; */
+
+            /* padding-left: 50px;
+            padding-top: 30px; */
+
+            padding: 20px 50px 40px 30px;
+
+            border: 20px double red;
+            /* border-width: 30px;
+            border-style: dotted;
+            border-color: blue; */
+
+            border-radius: 50px;
+
+            margin-top: 100px;
+            margin-left: 100px;
+        }
