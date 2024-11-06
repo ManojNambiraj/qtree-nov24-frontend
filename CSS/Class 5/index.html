@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* div > .para {               /* Child Selector 
+        background-color: yellow;
+      } */
+
+      /* .para + p { */
+      /* .para ~ p {                   /* Sibiling selector 
+        background-color: blue;
+      } */
+
+      /* p:nth-child(5){
+        background-color: aqua;
+      } */
+
+      .blueBox {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+      }
+
+      .blackBox {
+        width: 300px;
+        height: 300px;
+        background: #000;
+      }
+
+      .parent{
+        background-image: url(123.jpg);
+        background-repeat: no-repeat;
+      }
+
+      @media (min-width: 1024px) and (max-width: 1440px) {
+        .blueBox {
+          width: 100px;
+          height: 100px;
+          background-color: rgb(237, 58, 26);
+        }
+
+        .blackBox {
+          /* display: none; */
+          opacity: 0.2;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .blueBox {
+          width: 200px;
+          height: 200px;
+          background-color: rgb(198, 237, 26);
+          border-radius: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div ></div> -->
+
+    <div class="parent">
+      <img
+        src="https://5.imimg.com/data5/SELLER/Default/2023/5/306209812/GB/ST/KH/14357089/infinix-mobile-phone-smart-samsung-oneplus-redmi-realme-nokia-oppo-vivo-xiaomi-tecno-apple.jpg"
+        alt=""
+        class="blueBox"
+      />
+
+      <div class="blackBox"></div>
+    </div>
+
+    <!-- <div>
+      <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+        incidunt impedit possimus! Necessitatibus voluptate assumenda molestias
+        atque, esse id eos debitis libero, doloribus perferendis tenetur, dolore
+        architecto unde! Magnam, quaerat.
+      </p>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+        ipsam porro quo non repellat, deserunt minima illo eum ut quas! Quod
+        deserunt earum accusantium eligendi reiciendis dignissimos blanditiis
+        expedita unde?
+      </p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis
+        quidem cumque, fugiat, fugit itaque animi neque autem numquam asperiores
+        aspernatur enim! Deserunt eveniet doloremque consequuntur aliquam. Vero,
+        sit at!
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ipsa eius
+        nemo facilis debitis harum nostrum aut voluptate officia nihil accusamus
+        dolorem hic, ad provident enim. Praesentium totam modi inventore?
+      </p>
+    </div> -->
+  </body>
+</html>
