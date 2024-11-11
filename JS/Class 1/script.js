@@ -1,73 +1,103 @@
-// Javascript - Functionalities
+// JS - Functionalities
 
-// 1. Builtin funtions
-// 2. User-defined functions
+//  1. Built-in functions
+//  2. User-defined functions
 
-// alert("hi");
-// console.log("hi")
+// alert("hello");
+
+// console.log("hello");
+
+
+// Javascript -> Ecma Script
+
+// Current version  -> ES6
+// Previous version -> ES5
 
 // Datatypes:
 
-// Number
-
 // a = 123
-
-// console.log(typeof a, a);
-
-// // String
-
-// a = "xyz"
-
-// console.log(typeof a, a);
-
+// a = 'hi'
 // a = false
-
-// console.log(typeof a, a);
-
 // a = null
 
 // console.log(typeof a, a);
 
-// Variables:
+// Variable
 
-// my_name_is_character = 10;
+// ES5
 
-// console.log(my_name_is_character);
+    // var
 
-// myNameIsCharacter = 300
-
-// console.log(myNameIsCharacter);
-
-
-// ES5 -> Ecma script 5
-
-// var
-
-// ES6 -> Ecma script 6
-
-// Let, const
-
-// // Var
-
-    // var a = 10;
+    // var a = 10;      // Variable Declaration
 
     // var a = 500;
 
-    // console.log(a);
+    // console.log(a);  // Varibale Definition
+    
 
-// // Let
+// ES6
 
-    // let b = 7
+    // Let
 
-    // b = 10;
+    // let b = 20;
+
+    // b = 300;
+
+    // b = 1000
 
     // console.log(b);
-
-// // Const
-
-    const c = 500;
-
-    console.log(c);
     
     
+    // Const
+
+    // const x = 50;
+
+    // console.log(x);
     
+// Scoping (or Hoisting)
+
+    // 1. Global Scope
+
+        // {
+        //     var y = 50;
+
+        //     console.log(y);
+            
+        // }
+
+        // console.log(y);
+    
+
+    // 2. local Scope
+
+        // {
+        //     const z = 20;
+
+        //     console.log("inside:", z);
+            
+        // }
+
+        // console.log("outside:", z);
+
+        // {
+        //     {
+        //         var a = 50;
+        //         {
+        //             {
+        //                 {
+        //                     {
+        //                         console.log("111111", a);
+                                
+        //                     }
+        //                 }
+        //             }
+        //         }
+
+        //         console.log("222222", a);
+                
+        //     }
+        // }
+
+        // console.log("333333", a);
+        
+        
