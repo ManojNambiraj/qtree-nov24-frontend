@@ -24,32 +24,26 @@
 
 // demo()
 
-
 // Event Listeners:
 
-    // onclick
-    // onchange
+// onclick
+// onchange
 
-    function handleChange(event) {
-        console.log(event.target.value);
-        
-    }
+let your_bank_balance = 0;
+let temp;
 
-    // let your_bank_balance = 1000
+function handleChange(event) {
+  temp = event.target.value;
+}
 
-    // const handleDeposite = (amount) => {
-    //     your_bank_balance += amount
+const handleDeposite = () => {
+  your_bank_balance += Number(temp);
 
-    //     console.log(your_bank_balance);
-    // }
+  document.getElementsByTagName("h1")[0].innerText = your_bank_balance;
+};
 
-    // const handleWithdraw = (amount) => {
-    //     your_bank_balance -= amount
+const handleWithdraw = () => {
+  your_bank_balance -= Number(temp);
 
-    //     console.log(your_bank_balance);
-        
-    // }
-
-    
-    
-
+  document.getElementsByTagName("h1")[0].innerText = your_bank_balance;
+};
